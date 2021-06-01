@@ -20,7 +20,9 @@ class MyApplication extends StatelessWidget {
         Calculator.routeName :(context)=>Calculator(),
         ListViewExample.routeName:(context)=>ListViewExample()
       },
-      initialRoute: HomeScreen.routeName,
+      initialRoute: Calculator.routeName,
+
     ));
   }
+
 }
