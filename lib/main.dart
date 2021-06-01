@@ -21,7 +21,6 @@ class MyApplication extends StatelessWidget {
         ListViewExample.routeName:(context)=>ListViewExample()
       },
       initialRoute: Calculator.routeName,
-
     ));
   }
 
