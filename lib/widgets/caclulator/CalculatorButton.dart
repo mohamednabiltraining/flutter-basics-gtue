@@ -11,11 +11,14 @@ class CalculatorButton extends StatelessWidget{
     return 
       Expanded(child:
       Container(
+
         margin: EdgeInsets.all(1),
         child: ElevatedButton(onPressed: ()=>{
           onButtonClick(buttonText)
         },
-            child: Text(this.buttonText,style: TextStyle(fontSize: 32),)),
+
+            child: Text(this.buttonText,
+              style: TextStyle(fontSize: 32,color: Colors.deepOrange),)),
       ),
       );
   }
